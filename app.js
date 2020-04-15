@@ -14,7 +14,7 @@ app.get ('/', (req, res) => {
 app.post('/name', (req, res) => {
   const name = req.body.name
 
-  res.send('<h1>' + 'Hola ' + name + '</h1>');
+  res.send('<h1>' + 'Hola ' + name + '!</h1>');
 })
 
 app.listen(3000, () => console.log('Saludame3'));
